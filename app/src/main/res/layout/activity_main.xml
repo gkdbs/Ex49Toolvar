@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+<!--Actionbar를 대처할 제목줄 뷰-->
+<!--  <androidx.appcompat.widget.Toolbar-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:background="@color/purple_500"-->
+<!--      app:titleTextColor="@color/white"/>-->
+    <!--Content 영역 뷰-->
+    <!--.Java 에서 이 툴바가 제목줄을 대체한다고 명시함-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+    </androidx.appcompat.widget.AppCompatRadioButton>
+</LinearLayout>
